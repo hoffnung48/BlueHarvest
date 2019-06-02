@@ -25,9 +25,9 @@ Note: for docker and excutable jar the commands must be runned from projects roo
 
   - In comand line run
   
-    > Gradlew build
-    > cd build/libs
-    > java - jar [Generated jarName]
+    $ Gradlew build
+    $ cd build/libs
+    $ java - jar [Generated jarName]
 
 # For Docker  
 
@@ -39,6 +39,7 @@ Once the App Starts
 
 We have to URls to test
 | H2 DB | [http://127.0.0.1:12000/h2-console] |
+
 | Swagger | [http://127.0.0.1:12000/swagger-ui.html] |
 
 Note: For H2 DB console ensure use jdbc:h2:mem:testdb
